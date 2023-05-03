@@ -1,0 +1,192 @@
+* {
+    margin: 0
+    ;
+}
+
+.nav {
+    background-color: #bcb6b847;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body {
+    background-image: url("/images/kakaka.jpg") ;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+#david-pp {
+    width: 10%;
+    position: relative;
+    left: 45%;
+    top: 80px;
+}
+
+#david-pp:hover {
+    transform: translateY(-0.500rem);
+    transition: transform 250ms;
+  }
+
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+}
+
+#h1-home {
+    padding: 100px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    bottom: 201px;
+}
+
+
+#p1 {
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 150px;
+}
+
+#home {
+    color: white;
+    text-decoration: none;
+}
+
+#home:hover {
+    transform: translateY(-0.25rem);
+    transition: transform 250ms;
+}
+
+#about {
+    color: white;
+    text-decoration: none;
+}
+#about:hover {
+    transform: translateY(-0.25rem);
+    transition: transform 250ms;
+}
+
+#work {
+    color: white;
+    text-decoration: none;
+}
+
+#work:hover {
+    transform: translateY(-0.25rem);
+    transition: transform 250ms;
+}
+
+#photo-gallery {
+    color: white;
+    text-decoration: none;
+}
+
+#photo-gallery:hover {
+    transform: translateY(-0.25rem);
+    transition: transform 250ms;
+}
+
+#h1-about {
+    padding: 100px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    bottom: 20px;
+}
+
+#p2 {
+    color: white;
+    width: 50%;
+    text-align: justify;
+    font-size: 20px;
+    position: relative;
+    bottom: 52px;
+    left: 25%;
+    padding: 20px;
+    text-indent: 10px;
+}
+
+#h1-work {
+    padding: 100px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    bottom: 20px;
+}
+
+#p3 {
+    color: white;
+    width: 60%;
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    bottom: 90px;
+    left: 20%;
+    padding: 20px;
+}
+
+#work1 {
+    color: white;
+    width: 40%;
+    position: relative;
+    left: 120px;
+    bottom: 50px;
+}
+
+#work2 {
+    color: white;
+    position: relative;
+    left: 800px;
+    bottom: 400px;
+    width: 40%;
+}
+
+#work-title {
+    font-weight: bolder;
+}
+
+
+#h1-gallery {
+    padding: 100px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    bottom: 20px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+}
+
+.image-gallery {
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 74px;
+}
+
+#current-image {
+    width: 21%;
+}
+
+#image-thumbs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

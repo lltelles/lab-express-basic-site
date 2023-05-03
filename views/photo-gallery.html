@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Photo Gallery</title>
+</head>
+<div class="nav">
+    <a id="home" href="/home">HOME</a>
+    <a id="about" href="/about">ABOUT</a>
+    <a id="work" href="/work">WORK</a>
+    <a id="photo-gallery" href="/photo-gallery">PHOTO GALLERY</a>
+</div>
+<body>
+    <h1 id="h1-gallery">Photo Gallery</h1>
+    <h2>Here you can check some cool pictures about David "JoelKatz" Schwartz!</h2>
+    <div class="image-gallery">
+        <div id="image-thumbs">
+        <img id="current-image" src="/images/DS00.jpg" alt="image01">
+        <div id="thumbnails" >
+
+        </div>
+        </div>
+    </div>
+    <style>
+        #thumbnails > img {
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+        }
+         
+        #current-image {
+            width: 300px;
+            height: 300px;
+            padding: 10px;
+        }
+
+        #image-thumbs {
+            display: flex;
+            margin-top: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+    </style>
+    <script> 
+     let imageThumbs = document.getElementById("image-thumbs");
+
+    for (let i = 0; i <= 4; i++){
+    let thumb = document.createElement("img")
+    thumb.src = "/images/DS0" + i + ".jpg";
+    thumb.alt = "Image " + i;
+
+    document.getElementById("thumbnails").appendChild(thumb)
+
+    thumb.addEventListener( 
+        "click", function() {
+            document.getElementById("current-image").src=thumb.src
+        }
+    )
+        
+}
+     </script>
+</body>
+</html>
